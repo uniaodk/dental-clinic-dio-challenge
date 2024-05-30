@@ -4,19 +4,19 @@ const buttonMenus = menu.getElementsByTagName("button");
 
 const indexPages = {
 	dashboard: {
-		headerTemplate: `<h1>Dental<img width="100" src="/assets/icons/teeth.svg" align="center" />Clinic</h1>`,
+		headerTemplate: `<h1>Dental<img width="100" src="./assets/icons/teeth.svg" align="center" />Clinic</h1>`,
 		path: "./pages/dashboard.html"
 	},
 	about: {
-		headerTemplate: `<h1>Sobre <img width="50" src="/assets/icons/about.svg" align="center" /></h1>`,
+		headerTemplate: `<h1>Sobre <img width="50" src="./assets/icons/about.svg" align="center" /></h1>`,
 		path: "./pages/about.html",
 	},
 	contact: {
-		headerTemplate : `<h1>Contato <img width="50" src="/assets/icons/contact.svg" align="center" /></h1>`,
+		headerTemplate : `<h1>Contato <img width="50" src="./assets/icons/contact.svg" align="center" /></h1>`,
 		path: "./pages/contact.html"
 	},
 	timesheet: {
-		headerTemplate: '<h1>Horário de atendimento <img width="50" src="/assets/icons/simple-schedule.svg" align="center" /></h1>',
+		headerTemplate: '<h1>Horário de atendimento <img width="50" src="./assets/icons/simple-schedule.svg" align="center" /></h1>',
 		path: "./pages/timesheet.html"
 	}
 }
